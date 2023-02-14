@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Button from "../Button/Button";
+import React from 'react';
+
+import Button from '../Button/Button';
 
 const HomeDiscount = (props) => {
 	return (
@@ -16,7 +16,5 @@ const HomeDiscount = (props) => {
 		</div>
 	);
 };
-
-HomeDiscount.propTypes = {};
 
 export default HomeDiscount;

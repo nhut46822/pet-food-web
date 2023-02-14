@@ -1,13 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
 
 const Button = (props) => {
 	const { size, mobile } = props;
-	const sizeLarge = size === "large" ? "large" : "";
+	const sizeLarge = size === 'large' ? 'large' : '';
 
-	const sizeSm = size === "sm" ? "sm" : "";
+	const sizeSm = size === 'sm' ? 'sm' : '';
 
-	const mobileSize = mobile === "big" ? "big" : "";
+	const mobileSize = mobile === 'big' ? 'big' : '';
 
 	return (
 		<button
@@ -18,7 +17,5 @@ const Button = (props) => {
 		</button>
 	);
 };
-
-Button.propTypes = {};
 
 export default Button;

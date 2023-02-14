@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
-import PropTypes from "prop-types";
-import products from "../../assets/fake-data/product";
+import React, { useEffect, useRef, useState } from 'react';
+
+import products from '../../assets/fake-data/product';
 
 const ProductItem = (props) => {
 	const { indexTransform } = props;
@@ -42,7 +42,5 @@ const ProductItem = (props) => {
 		</>
 	);
 };
-
-ProductItem.propTypes = {};
 
 export default ProductItem;

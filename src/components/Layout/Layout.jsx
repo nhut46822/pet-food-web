@@ -1,15 +1,15 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import React from 'react';
 
-import { Routes, Route, Link } from "react-router-dom";
-import Home from "../../pages/Home";
-import About from "../../pages/About";
-import Shop from "../../pages/Shop";
-import News from "../../pages/News";
-import Contact from "../../pages/Contact";
-import Cart from "../../pages/Cart";
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+
+import { Routes, Route } from 'react-router-dom';
+import Home from '../../pages/Home';
+import About from '../../pages/About';
+import Shop from '../../pages/Shop';
+import News from '../../pages/News';
+import Contact from '../../pages/Contact';
+import Cart from '../../pages/Cart';
 
 const Layout = (props) => {
 	return (
@@ -31,7 +31,5 @@ const Layout = (props) => {
 		</div>
 	);
 };
-
-Layout.propTypes = {};
 
 export default Layout;

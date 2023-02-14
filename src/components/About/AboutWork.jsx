@@ -1,5 +1,4 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
 
 const AboutWork = (props) => {
 	return (
@@ -71,7 +70,5 @@ const AboutWork = (props) => {
 		</div>
 	);
 };
-
-AboutWork.propTypes = {};
 
 export default AboutWork;

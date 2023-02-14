@@ -1,23 +1,21 @@
-import React from "react";
-import PropTypes from "prop-types";
-import products, { getQuantityProducts } from "../../assets/fake-data/product";
+import React from 'react';
 
 const NewsMain = (props) => {
 	const infoBlogPost = [
 		{
-			title: "Itaque earum rerum hic",
-			image: "https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2019/06/pets-food16-570x370-370x240.jpg",
-			time: "Nov 16,2021",
+			title: 'Itaque earum rerum hic',
+			image: 'https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2019/06/pets-food16-570x370-370x240.jpg',
+			time: 'Nov 16,2021',
 		},
 		{
-			title: "At vero eos et accusamus",
-			image: "https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2019/06/pets-food18-570x370-370x240.jpg",
-			time: "Nov 16,2021",
+			title: 'At vero eos et accusamus',
+			image: 'https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2019/06/pets-food18-570x370-370x240.jpg',
+			time: 'Nov 16,2021',
 		},
 		{
-			title: "Nam libero tempore, cum",
-			image: "https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2019/06/pets-food17-570x370-370x240.jpg",
-			time: "Nov 16,2021",
+			title: 'Nam libero tempore, cum',
+			image: 'https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2019/06/pets-food17-570x370-370x240.jpg',
+			time: 'Nov 16,2021',
 		},
 	];
 
@@ -177,7 +175,5 @@ const NewsMain = (props) => {
 		</div>
 	);
 };
-
-NewsMain.propTypes = {};
 
 export default NewsMain;

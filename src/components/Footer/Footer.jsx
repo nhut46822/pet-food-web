@@ -1,29 +1,29 @@
-import React from "react";
-import PropTypes from "prop-types";
-import petsFood1 from "../../assets/images/pets-food16.jpg";
-import petsFood2 from "../../assets/images/pets-food17.jpg";
-import Button from "../Button/Button";
+import React from 'react';
+
+import petsFood1 from '../../assets/images/pets-food16.jpg';
+import petsFood2 from '../../assets/images/pets-food17.jpg';
+import Button from '../Button/Button';
 
 const services = [
 	{
-		title: "Fast Service",
-		path: "",
+		title: 'Fast Service',
+		path: '',
 	},
 	{
-		title: "Healthy Food",
-		path: "",
+		title: 'Healthy Food',
+		path: '',
 	},
 	{
-		title: "Online Stores",
-		path: "",
+		title: 'Online Stores',
+		path: '',
 	},
 	{
-		title: "Help & Contact Us",
-		path: "",
+		title: 'Help & Contact Us',
+		path: '',
 	},
 	{
-		title: "Returns & Refunds",
-		path: "",
+		title: 'Returns & Refunds',
+		path: '',
 	},
 ];
 
@@ -91,7 +91,5 @@ const Footer = (props) => {
 		</footer>
 	);
 };
-
-Footer.propTypes = {};
 
 export default Footer;

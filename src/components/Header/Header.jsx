@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import logo from '../../assets/images/logo-pets-food.png';
 import { Link } from 'react-router-dom';
 import useStore from '../../CustomHooks';
@@ -147,7 +146,5 @@ const Header = (props) => {
 		</header>
 	);
 };
-
-Header.propTypes = {};
 
 export default Header;

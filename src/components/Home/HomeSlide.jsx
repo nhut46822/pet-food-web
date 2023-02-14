@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Button from '../Button/Button';
 
 import bannerImage from '../../assets/images/banner-dog-cat.jpg';
@@ -22,22 +21,22 @@ const HomeSlide = (props) => {
 				</div>
 			</div>
 			<div className="home-slide__dots">
-				<p
+				<div
 					className={`home-slide__dots__item ${
 						activeDot ? 'active' : ''
 					}`}
 					onClick={() => handleActiveDot(1)}
 				>
 					<p className="home-slide__dots__item__scale"></p>
-				</p>
-				<p
+				</div>
+				<div
 					className={`home-slide__dots__item ${
 						!activeDot ? 'active' : ''
 					}`}
 					onClick={() => handleActiveDot(0)}
 				>
 					<p className="home-slide__dots__item__scale"></p>
-				</p>
+				</div>
 			</div>
 
 			<div className="home-slide__content">
@@ -52,7 +51,5 @@ const HomeSlide = (props) => {
 		</div>
 	);
 };
-
-HomeSlide.propTypes = {};
 
 export default HomeSlide;

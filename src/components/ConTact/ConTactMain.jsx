@@ -1,5 +1,4 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
 
 const ConTactMain = (props) => {
 	return (
@@ -66,7 +65,5 @@ const ConTactMain = (props) => {
 		</div>
 	);
 };
-
-ConTactMain.propTypes = {};
 
 export default ConTactMain;

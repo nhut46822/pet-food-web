@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
-import ProductItem from "../ProductItem/ProductItem";
-import products from "../../assets/fake-data/product";
+import React, { useState } from 'react';
+
+import ProductItem from '../ProductItem/ProductItem';
+import products from '../../assets/fake-data/product';
 
 const HomeProductList = (props) => {
 	const [indexTransform, setIndexTransform] = useState(0);
@@ -36,7 +36,7 @@ const HomeProductList = (props) => {
 				<div
 					onClick={() => handleIndexTransform(indexTransform - 1)}
 					className={` home-productList__content__btn home-productList__content__prev ${
-						indexTransform === 0 ? "disable" : ""
+						indexTransform === 0 ? 'disable' : ''
 					}`}
 				>
 					<i className="fas fa-chevron-left"></i>
@@ -45,7 +45,7 @@ const HomeProductList = (props) => {
 				<div
 					onClick={() => handleIndexTransform(indexTransform + 1)}
 					className={`home-productList__content__btn home-productList__content__next ${
-						indexTransform === products.length - 4 ? "disable" : ""
+						indexTransform === products.length - 4 ? 'disable' : ''
 					}`}
 				>
 					<i className="fas fa-chevron-right"></i>
@@ -54,7 +54,5 @@ const HomeProductList = (props) => {
 		</div>
 	);
 };
-
-HomeProductList.propTypes = {};
 
 export default HomeProductList;

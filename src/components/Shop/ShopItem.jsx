@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
-import PropTypes from "prop-types";
-import useStore from "../../CustomHooks";
+import React from 'react';
+
+import useStore from '../../CustomHooks';
 
 const ShopItem = (props) => {
 	const { data } = props;
@@ -42,7 +42,5 @@ const ShopItem = (props) => {
 		</div>
 	);
 };
-
-ShopItem.propTypes = {};
 
 export default ShopItem;

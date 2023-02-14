@@ -1,9 +1,8 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
-import ProductItem from "../ProductItem/ProductItem";
-import ShopItem from "./ShopItem";
-import products, { getQuantityProducts } from "../../assets/fake-data/product";
-import ShopSideBar from "./ShopSideBar";
+import React, { useState } from 'react';
+
+import ShopItem from './ShopItem';
+import products from '../../assets/fake-data/product';
+import ShopSideBar from './ShopSideBar';
 
 const ShopContent = (props) => {
 	const [productList, setProductList] = useState(products);
@@ -15,7 +14,7 @@ const ShopContent = (props) => {
 				.toUpperCase()
 				.includes(e.target.value.toUpperCase());
 		});
-		console.log("newProductList", newProductList);
+		console.log('newProductList', newProductList);
 
 		setProductList(newProductList);
 	};
@@ -64,7 +63,5 @@ const ShopContent = (props) => {
 		</div>
 	);
 };
-
-ShopContent.propTypes = {};
 
 export default ShopContent;

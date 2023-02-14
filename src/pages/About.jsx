@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import AboutMain from "../components/About/AboutMain";
+import React from 'react';
+
+import AboutMain from '../components/About/AboutMain';
 
 const About = (props) => {
 	return (
@@ -9,7 +9,5 @@ const About = (props) => {
 		</div>
 	);
 };
-
-About.propTypes = {};
 
 export default About;

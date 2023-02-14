@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import HomeMain from "../components/Home/HomeMain";
+import React from 'react';
+
+import HomeMain from '../components/Home/HomeMain';
 
 const Home = (props) => {
 	return (
@@ -11,7 +11,5 @@ const Home = (props) => {
 		</div>
 	);
 };
-
-Home.propTypes = {};
 
 export default Home;

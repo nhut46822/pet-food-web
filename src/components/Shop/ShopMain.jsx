@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
-import PropTypes from "prop-types";
-import ShopContent from "./ShopContent";
-import PruductContext from "../../ProductProvider";
+import React from 'react';
+
+import ShopContent from './ShopContent';
 
 const ShopMain = (props) => {
 	return (
@@ -23,7 +22,5 @@ const ShopMain = (props) => {
 		</div>
 	);
 };
-
-ShopMain.propTypes = {};
 
 export default ShopMain;

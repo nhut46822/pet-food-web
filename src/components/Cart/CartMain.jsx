@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import CartContent from "./CartContent";
+import React from 'react';
+
+import CartContent from './CartContent';
 
 const CartMain = (props) => {
 	return (
@@ -22,7 +22,5 @@ const CartMain = (props) => {
 		</div>
 	);
 };
-
-CartMain.propTypes = {};
 
 export default CartMain;

@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import NewsMain from "../components/News/NewsMain";
+import React from 'react';
+
+import NewsMain from '../components/News/NewsMain';
 
 const News = (props) => {
 	return (
@@ -9,7 +9,5 @@ const News = (props) => {
 		</div>
 	);
 };
-
-News.propTypes = {};
 
 export default News;

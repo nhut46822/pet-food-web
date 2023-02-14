@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import ShopMain from "../components/Shop/ShopMain";
+import React from 'react';
+
+import ShopMain from '../components/Shop/ShopMain';
 
 const Shop = (props) => {
 	return (
@@ -9,7 +9,5 @@ const Shop = (props) => {
 		</div>
 	);
 };
-
-Shop.propTypes = {};
 
 export default Shop;

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 const HomeUpdate = (props) => {
 	return (
@@ -71,7 +70,5 @@ const HomeUpdate = (props) => {
 		</div>
 	);
 };
-
-HomeUpdate.propTypes = {};
 
 export default HomeUpdate;

@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import AboutHeader from "./AboutHeader";
-import AboutTeam from "./AboutTeam";
-import AboutWork from "./AboutWork";
+import React from 'react';
+
+import AboutHeader from './AboutHeader';
+import AboutTeam from './AboutTeam';
+import AboutWork from './AboutWork';
 
 const AboutMain = (props) => {
 	return (
@@ -15,7 +15,5 @@ const AboutMain = (props) => {
 		</div>
 	);
 };
-
-AboutMain.propTypes = {};
 
 export default AboutMain;

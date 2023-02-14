@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import products, { getQuantityProducts } from "../../assets/fake-data/product";
+import React from 'react';
+
+import products from '../../assets/fake-data/product';
 
 const ShopSideBar = (props) => {
 	return (
@@ -53,7 +53,5 @@ const ShopSideBar = (props) => {
 		</>
 	);
 };
-
-ShopSideBar.propTypes = {};
 
 export default ShopSideBar;

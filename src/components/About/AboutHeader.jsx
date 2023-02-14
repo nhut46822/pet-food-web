@@ -1,5 +1,4 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
 
 const AboutHeader = (props) => {
 	return (
@@ -84,7 +83,5 @@ const AboutHeader = (props) => {
 		</div>
 	);
 };
-
-AboutHeader.propTypes = {};
 
 export default AboutHeader;

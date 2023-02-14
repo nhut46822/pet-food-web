@@ -1,27 +1,26 @@
-import React, { useEffect, useState } from "react";
-import PropTypes from "prop-types";
+import React, { useEffect, useState } from 'react';
 
 const reviewPeople = [
 	{
-		title: "Testimonial",
+		title: 'Testimonial',
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada euismod imperdiet. Aenean pretium risus sit amet diam varius convallis. Nulla congue erat ac imperdiet sollicitudin. Morbi accumsan arcu nunc, quis convallis eros pharetra sed. Sed nec ligula sit amet magna euismod lobortis",
-		name: "Emma Doe",
-		image: "https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2021/11/Speakers44.jpg",
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada euismod imperdiet. Aenean pretium risus sit amet diam varius convallis. Nulla congue erat ac imperdiet sollicitudin. Morbi accumsan arcu nunc, quis convallis eros pharetra sed. Sed nec ligula sit amet magna euismod lobortis',
+		name: 'Emma Doe',
+		image: 'https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2021/11/Speakers44.jpg',
 	},
 	{
-		title: "Testimonial",
+		title: 'Testimonial',
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada euismod imperdiet. Aenean pretium risus sit amet diam varius convallis. Nulla congue erat ac imperdiet sollicitudin. Morbi accumsan arcu nunc, quis convallis eros pharetra sed. Sed nec ligula sit amet magna euismod lobortis",
-		name: "David Parker",
-		image: "https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2021/11/Speakers11.jpg",
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada euismod imperdiet. Aenean pretium risus sit amet diam varius convallis. Nulla congue erat ac imperdiet sollicitudin. Morbi accumsan arcu nunc, quis convallis eros pharetra sed. Sed nec ligula sit amet magna euismod lobortis',
+		name: 'David Parker',
+		image: 'https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2021/11/Speakers11.jpg',
 	},
 	{
-		title: "Testimonial",
+		title: 'Testimonial',
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada euismod imperdiet. Aenean pretium risus sit amet diam varius convallis. Nulla congue erat ac imperdiet sollicitudin. Morbi accumsan arcu nunc, quis convallis eros pharetra sed. Sed nec ligula sit amet magna euismod lobortis",
-		name: "Emma Doe",
-		image: "https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2021/11/Speakers44.jpg",
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada euismod imperdiet. Aenean pretium risus sit amet diam varius convallis. Nulla congue erat ac imperdiet sollicitudin. Morbi accumsan arcu nunc, quis convallis eros pharetra sed. Sed nec ligula sit amet magna euismod lobortis',
+		name: 'Emma Doe',
+		image: 'https://kamleshyadav.com/templatemonster/pets-food/wp-content/uploads/2021/11/Speakers44.jpg',
 	},
 ];
 
@@ -32,7 +31,7 @@ const HomeReview = (props) => {
 
 	const styleSlide = {
 		transform: `translateX(${slideReviewPresent}%)`,
-		transition: "transform 0.35s ease-in-out",
+		transition: 'transform 0.35s ease-in-out',
 	};
 
 	const handleSlideReview = (index) => {
@@ -110,7 +109,5 @@ const HomeReview = (props) => {
 		</div>
 	);
 };
-
-HomeReview.propTypes = {};
 
 export default HomeReview;

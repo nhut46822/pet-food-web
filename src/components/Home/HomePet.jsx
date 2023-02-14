@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import dogCatEat from "../../assets/images/dog-cat-eat.jpg";
-import Button from "../Button/Button";
+import React from 'react';
+
+import dogCatEat from '../../assets/images/dog-cat-eat.jpg';
+import Button from '../Button/Button';
 
 const HomePet = (props) => {
 	return (
@@ -67,7 +67,5 @@ const HomePet = (props) => {
 		</div>
 	);
 };
-
-HomePet.propTypes = {};
 
 export default HomePet;

@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import useStore from "../../CustomHooks";
+import React from 'react';
+
+import useStore from '../../CustomHooks';
 
 const CartContent = (props) => {
 	const {
@@ -11,8 +11,8 @@ const CartContent = (props) => {
 	} = useStore();
 
 	const subTotal = totalProduct.reduce((acc, item) => {
-		console.log("quantity", item.quantity);
-		console.log("price", item.price);
+		console.log('quantity', item.quantity);
+		console.log('price', item.price);
 		return acc + item.quantity * item.price;
 	}, 0);
 
@@ -55,7 +55,7 @@ const CartContent = (props) => {
 											onClick={() =>
 												handleQualityProduct(
 													id,
-													"decrease"
+													'decrease'
 												)
 											}
 										>
@@ -66,7 +66,7 @@ const CartContent = (props) => {
 											onClick={() =>
 												handleQualityProduct(
 													id,
-													"increase"
+													'increase'
 												)
 											}
 										>
@@ -120,7 +120,5 @@ const CartContent = (props) => {
 		</div>
 	);
 };
-
-CartContent.propTypes = {};
 
 export default CartContent;
